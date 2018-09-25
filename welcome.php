@@ -8,8 +8,8 @@
    </head>
    
    <body>
-      <h1>Welcome <?php echo $login_session; ?></h1> 
-      <h2><a href = "logout.php">Sign Out</a></h2>
+      <h1>Welkom <?php echo $login_session; ?></h1> 
+      <h2><a href = "logout.php">Log uit</a></h2>
    </body>
    
 </html>
