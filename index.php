@@ -1,35 +1,8 @@
-<?php
-   include("config.php");
-   session_start();
-   if($_SERVER["REQUEST_METHOD"] == "POST") {
-      // username and password sent from form 
-      
-      $myusername = mysqli_real_escape_string($db,$_POST['username']);
-      $mypassword = mysqli_real_escape_string($db,$_POST['password']); 
-      
-      $sql = "SELECT id FROM users WHERE username = '$myusername' and password = '$mypassword'";
-      echo $sql;
-      $result = mysqli_query($db,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
-      
-      $count = mysqli_num_rows($result);
-      
-      // If result matched $myusername and $mypassword, table row must be 1 row
-		
-      if($count == 1) {
-         //session_register("myusername");
-         $_SESSION['login_user'] = $myusername;
-         
-         header("location: welcome.php");
-      }else {
-         $error = "Your Login Name or Password is invalid";
-      }
-   }
-?>
+<?php include("login.php") ?>
 <html>
    
    <head>
-      <title>Login Page</title>
+      <title>Login Pagina</title>
       
       <style type = "text/css">
          body {
@@ -60,7 +33,7 @@
                   <label>Gebruikersnaam     :</label><input type = "text" name = "username" class = "box"/><br /><br />
                   <label>Wachtwoord         :</label><input type = "password" name = "password" class = "box" /><br/><br />
                   <? echo $error ?>
-                  <input type = "submit" value = " Submit "/><br />
+                  <input type = "submit" value = " Login "/><br />
                </form>
                
                <div style = "font-size:11px; color:#cc0000; margin-top:10px"></div>
