@@ -6,12 +6,12 @@ body {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 20;
   top: 0;
   left: 0;
   background-color: #FCFCFC;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.97s;
   padding-top: 60px;
   box-shadow: 3px 3px 5px #CCCCCC;
 }
@@ -23,7 +23,7 @@ body {
   font-weight: bold;
   color: #250A71;
   display: block;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .sidenav a:hover {
@@ -49,8 +49,50 @@ body {
   font-size: 30px;
   cursor: pointer;
   color: #250A71;
+  position: fixed;
 }
 
 #menuIcon:hover {
   color: #F9009A;
+}
+
+.container {
+  width: 100%;
+  z-index: 1;
+}
+
+.container .content {
+  background-color:#eee;
+  height: auto;
+  margin-left: 10%;
+  width:80%;
+  display: block;
+  position: relative;
+  float: left;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 10%;
+  z-index: 10;
+
+  box-shadow: 3px 3px 5px 3.5px #CCCCCC;
+}
+
+.container .content p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container .pagetitle {
+  background-color:#b5dcb3;
+  width:80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
 }

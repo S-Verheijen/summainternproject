@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="css/style.css">
+
 
 <div id="mySidenav" class="sidenav">
   <a class="closebtn" onclick="closeNav()">&times;</a>
