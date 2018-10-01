@@ -12,3 +12,5 @@ if ($db->connect_error) {
 }
 $db -> select_db("dbvoorraadapplicatie");
 ?>
+
+buurt
