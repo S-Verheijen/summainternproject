@@ -5,5 +5,3 @@
       header("Location: index.php");
    }
 ?>
-
-buurt

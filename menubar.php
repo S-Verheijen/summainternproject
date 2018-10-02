@@ -9,5 +9,3 @@
 <span id="menuIcon"  onmouseenter="openNav()">&#9776;</span>
 
 <script src="javascript/menu.js"></script>
-
-buurt
