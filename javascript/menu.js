@@ -1,7 +1,9 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  $('#mySidenav').css({"width":"250px"});
+  $('#menuIcon').hide();
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  $('#mySidenav').css({"width":"0"});
+  $('#menuIcon').fadeIn(1000);
 }

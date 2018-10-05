@@ -9,3 +9,4 @@
 <span id="menuIcon"  onmouseenter="openNav()">&#9776;</span>
 
 <script src="javascript/menu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
