@@ -14,7 +14,7 @@
             <div id="items">
                     <table id="ProductTable">
                         <tr>
-                            <th>Monitor</th>
+                            <th> Monitor </th>
                             <th> Quantity </th>
                             <th> Stock </th>
                         </tr>
