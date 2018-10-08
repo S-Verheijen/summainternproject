@@ -2,7 +2,7 @@
 
 <div id="mySidenav" onmouseleave="closeNav()" class="sidenav">
   <a href="dashboard.php">Dashboard</a>
-  <a href="#">Bestellingen</a>
+  <a href="bestellingen.php">Bestellingen</a>
   <a href="#">Agenda</a>
   <a href= "logout.php">Uitloggen</a>
 </div>

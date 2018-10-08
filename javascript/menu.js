@@ -1,9 +1,9 @@
 function openNav() {
   $('#mySidenav').css({"width":"250px"});
-  $('#menuIcon').hide();
+  $('#menuIcon').fadeOut(250);
 }
 
 function closeNav() {
   $('#mySidenav').css({"width":"0"});
-  $('#menuIcon').fadeIn(1000);
+  $('#menuIcon').fadeIn(1800);
 }
