@@ -12,14 +12,14 @@
             </div>
             <div class="content">
             <div id="items">
-                    <table id="ProductTable">
+                    <table>
                         <tr>
                             <th> Monitor </th>
                             <th> Quantity </th>
                             <th> Stock </th>
                         </tr>
                         <tr>
-                            <td> <div id="thumbnailIMG"> <img src="assets/monitor.png" style="width: 100%;"> </div> </td>
+                            <td> <img class="imgDIV" src="assets/monitor.png"> </td>
                             <td>   
                                 <select>
                                     <option value="1">1</option>

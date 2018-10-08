@@ -95,4 +95,18 @@ body {
   width: 100%;
   z-index: 0;
 }
-
+.imgDIV
+{
+  max-width: 256px;
+  max-height: 144px;
+  width: auto;
+  height: auto;
+}
+table
+{
+  width: 100%;
+}
+td,tr
+{
+  text-align: center;
+}

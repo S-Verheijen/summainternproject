@@ -1,6 +1,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <div id="mySidenav" onmouseleave="closeNav()" class="sidenav">
+  <img id="SClogo" src="assets/SummaLogo.png">
   <a href="dashboard.php">Dashboard</a>
   <a href="bestellingen.php">Bestellingen</a>
   <a href="#">Agenda</a>
