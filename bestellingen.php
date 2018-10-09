@@ -13,6 +13,9 @@
             <div class="content">
             <div id="items">
                     <table>
+
+                        <! MONITOR >
+
                         <tr>
                             <th> Monitor </th>
                             <th> Quantity </th>
@@ -31,7 +34,11 @@
                             </td>
                             <td> out of stock / in stock </td>
                             <td> <button type="button" onclick="alert('Toegevoegd aan mandje')">Add to cart</button> </td>
+
                         </tr>
+
+                        <! KEYBOARD >
+
                         <tr>
                             <th> Keyboard </th>
                             <th> Quantity </th>
@@ -39,6 +46,49 @@
                         </tr>
                         <tr>
                             <td> <img class="imgDIV" src="assets/keyboard.png"> </td>
+                            <td>   
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="4">5</option>
+                                </select>
+                            </td>
+                            <td> out of stock / in stock </td>
+                            <td> <button type="button" onclick="alert('Toegevoegd aan mandje')">Add to cart</button> </td>
+                        </tr>
+
+                        <! BEHUIZING >
+
+                        <tr>
+                            <th> Behuizing </th>
+                            <th> Quantity </th>
+                            <th> Stock </th>
+                        </tr>
+                        <tr>
+                            <td> <img class="imgDIV" src="assets/case.png"> </td>
+                            <td>   
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="4">5</option>
+                                </select>
+                            </td>
+                            <td> out of stock / in stock </td>
+                            <td> <button type="button" onclick="alert('Toegevoegd aan mandje')">Add to cart</button> </td>
+                        </tr>
+
+                        <! STORAGE >
+                        <tr>
+                            <th> Opslag </th>
+                            <th> Quantity </th>
+                            <th> Stock </th>
+                        </tr>
+                        <tr>
+                            <td> <img class="imgDIV" src="assets/storage.png"> </td>
                             <td>   
                                 <select>
                                     <option value="1">1</option>
