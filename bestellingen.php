@@ -31,6 +31,24 @@
                             <td> out of stock / in stock </td>
                             <td> <button type="button" onclick="alert('Toegevoegd aan mandje')">Add to cart</button> </td>
                         </tr>
+                        <tr>
+                            <th> Keyboard </th>
+                            <th> Quantity </th>
+                            <th> Stock </th>
+                        </tr>
+                        <tr>
+                            <td> <img class="imgDIV" src="assets/keyboard.png"> </td>
+                            <td>   
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </td>
+                            <td> out of stock / in stock </td>
+                            <td> <button type="button" onclick="alert('Toegevoegd aan mandje')">Add to cart</button> </td>
+                        </tr>
                     </table>
                 </div>
             </div>
