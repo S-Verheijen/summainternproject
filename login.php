@@ -21,7 +21,7 @@
          
          header("location: welcome.php");
       }else {
-         $error = "Your Login Name or Password is invalid";
+         $error = "Je gebruikersnaam of wachtwoord is verkeerd";
       }
    }
 ?>

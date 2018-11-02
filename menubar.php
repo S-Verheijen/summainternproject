@@ -4,7 +4,7 @@
   <img id="SClogo" src="assets/SummaLogo.png">
   <a href="dashboard.php">Dashboard</a>
   <a href="bestellingen.php">Bestellingen</a>
-  <a href="#">Agenda</a>
+  <a href="agenda.php">Agenda</a>
   <a href= "logout.php">Uitloggen</a>
 </div>
 <span id="menuIcon"  onmouseenter="openNav()">&#9776;</span>
