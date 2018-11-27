@@ -1,6 +1,6 @@
 <?php
 // Set your timezone
-date_default_timezone_set('Asia/Tokyo');
+date_default_timezone_set('Europe/Amsterdam');
 // Get prev & next month
 if (isset($_GET['ym'])) {
     $ym = $_GET['ym'];
@@ -75,9 +75,12 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
         th {
             height: 30px;
             text-align: center;
+            border: 1px solid black;
         }
         td {
             height: 100px;
+            width: 100px;
+            border: 0.5px solid black;
         }
         .today {
             background: orange;
@@ -88,10 +91,8 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
         th:nth-of-type(7), td:nth-of-type(7) {
             color: blue;
         }
-        wrapper
-        {
+        .wrapper {
           margin: 5%;
-          min-width: 200px;
         }
     </style>
 </head>
@@ -102,17 +103,17 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
       <h1>Dashboard</h1>
     </div>
     <div class="content">
-    <div id="wrapper">
+    <div class="wrapper">
     <h3><a href="?ym=<?php echo $prev; ?>">&lt;</a> <?php echo $html_title; ?> <a href="?ym=<?php echo $next; ?>">&gt;</a></h3>
         <table class="table table-bordered">
             <tr>
-                <th>S</th>
-                <th>M</th>
-                <th>T</th>
-                <th>W</th>
-                <th>T</th>
-                <th>F</th>
-                <th>S</th>
+                <th>Zo</th>
+                <th>Ma</th>
+                <th>Di</th>
+                <th>Wo</th>
+                <th>Do</th>
+                <th>Vr</th>
+                <th>Za</th>
             </tr>
             <?php
                 foreach ($weeks as $week) {
